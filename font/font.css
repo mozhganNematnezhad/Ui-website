@@ -1,0 +1,97 @@
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../font/Lato/Lato-Thin.ttf');
+	src: url('../font/Lato/Lato-ThinItalic.ttf')
+
+}
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../font/Lato/Lato-Light.ttf');
+	src: url('../font/Lato/Lato-LightItalic.ttf') 
+}
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/eot/dana-light.eot');
+	src: url('fonts/eot/dana-light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/dana-light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/dana-light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: lato;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/eot/dana-medium.eot');
+	src: url('fonts/eot/dana-medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/dana-medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/dana-medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../font/Lato/Lato-Black.ttf');
+	src: url('../font/Lato/Lato-BlackItalic.ttf');
+}
+
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/Lato/Lato-Bold.ttf');
+	src: url('../font/Lato/Lato-BoldItalic.ttf');
+}
+
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/Lato/Lato-Regular.ttf');
+}
+
+/* ******** */
+
+@font-face {
+	font-family: Pacifico;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/Pacifico/Pacifico-Regular.ttf');
+}
+
+/********* */
+
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/Roboto_Condensed/RobotoCondensed-Light.ttf');
+	src: url('../font/Roboto_Condensed/RobotoCondensed-LightItalic.ttf') 
+}
+
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/Roboto_Condensed/RobotoCondensed-Bold.ttf');
+	src: url('../font/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf');
+}
+
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/Lato/Lato-Regular.ttf');
+}
