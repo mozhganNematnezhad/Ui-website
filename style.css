@@ -45,3 +45,56 @@ body {
   color: #fff;
   background-color: #00E8E8
 }
+
+/* ********* */
+
+.banner{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.site-content{
+  background-image: url("../../img/6.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+
+.site-title ,.site-des{
+  color :white ;
+  font-family: "pacifico" ;
+}
+
+.site-title {
+  margin-top: 30%;
+  margin-bottom:6%;
+  font-size:50px
+}
+
+.site-desc{
+  font-size :15px;
+  padding-left:15%;
+  color:white;
+
+}
+
+.site-btn1{
+  margin-left: 20%;
+  background-color: black;
+  color :white;
+}
+
+.site-btn2{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.site-btn1 ,.site-btn2{
+  margin-top:5%;
+  margin-bottom:40%
+}
+
+
+.section-1 , .heading-1{
+  
+}
