@@ -70,3 +70,62 @@
 	src: url('../font/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf');
 }
 
+
+
+/* ******** */
+
+
+@font-face {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/Ubuntu/Ubuntu-Light.ttf');
+	src: url('../font/Ubuntu/Ubuntu-LightItalic.ttf') 
+}
+
+@font-face {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/Ubuntu/Ubuntu-Medium.ttf');
+	src: url('../font/Ubuntu/Ubuntu-MediumItalic.ttf') 
+}
+
+
+@font-face {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../font/Lato/Lato-Black.ttf');
+	src: url('../font/Lato/Lato-BlackItalic.ttf');
+}
+
+
+@font-face {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/Ubuntu/Ubuntu-Bold.ttf');
+	src: url('../font/Ubuntu/Ubuntu-BoldItalic.ttf');
+}
+
+
+@font-face {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+
+
+
+
+/* ******** */
+
+@font-face {
+	font-family: Pacifico;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/Pacifico/Pacifico-Regular.ttf');
+}
