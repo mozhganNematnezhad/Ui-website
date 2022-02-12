@@ -201,12 +201,19 @@ body {
   font-size :20px
 }
 
-@media screen and (max-width: 768px) {
-  /* .section-1 .card{
-    width: 14rem;
-  } */
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
   .section-4 .col-md-7 img{
-      width: 350px;
+      width: 370px !important;
+  } 
+}
+
+
+@media screen and (max-width: 767px) {
+  .section-4 .col-md-7 img{
+    width: 280px;
   }
 }
 
