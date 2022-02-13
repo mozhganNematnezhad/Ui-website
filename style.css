@@ -138,9 +138,12 @@ body {
   transform: scale(1.2);
 }
 
-/* .card{
-  width: 20rem;
-} */
+.section-1 .heading-1, .heading-2 {
+  overflow:hidden;
+}
+
+
+
 /* section-2 */
 
 .section-2 {
