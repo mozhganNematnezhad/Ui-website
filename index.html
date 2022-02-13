@@ -14,15 +14,16 @@
     <link rel="stylesheet" href="fontawesome/js/all.js" />
     <link rel="stylesheet" href="fontawesome/js/all.min.js" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="navbar navbar-expand-lg navbar-light">
-      <a href="#" class="navbar-brand ml-3"
-        >Dtu:)<span style="color: #00e8e8">ition</span></a
-      >
+      <a href="#" class="navbar-brand ml-3">
+        UI / <span style="color: #00e8e8">Ux</span>
+      </a>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -46,14 +47,10 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">Events</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">Gallery</a>
+            <a href="#" class="nav-link">Project</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">pages</a>
+            <a href="#" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Contact Us</a>
@@ -73,8 +70,8 @@
       <div class="container-fluid p-0">
         <div class="site-content">
           <div class="d-flex justify-content-center">
-            <div class="d-flex flex-column">
-              <h1 class="site-title">Bootstrap User Interface</h1>
+            <div class="d-flex flex-column text-center">
+              <h1 class="site-title">UI/UX</h1>
               <p class="site-desc">
                 Lorem Ipsum has been the industry's standard dummy text
               </p>
@@ -98,8 +95,14 @@
 
       <div class="section-1">
         <div class="container text-center">
-          <h1 class="heading-1">Fantastic Features</h1>
-          <h1 class="heading-2">$ Different Type of Template</h1>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <h1 class="heading-1">Fantastic Features</h1>
+            <h1 class="heading-2">$ Different Type of Template</h1>
+          </div>
 
           <p class="para-1">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -110,8 +113,10 @@
 
           <div class="row justify-content-center text-center">
             <div class="col-md-4">
-              <div class="card">
-                <img src="./img/1.jpg" alt="Image1" class="card-img-top" />
+              <div class="card hover-zoomin">
+              <a href="#">
+                <img src="./img/1.jpg" alt="Image1" class="card-img-top hover-zoomin" />
+              </a>
                 <div class="card-body">
                   <h5 class="card-title">Responsive</h5>
                   <p class="card-text">
@@ -123,8 +128,10 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card" >
-                <img src="./img/2.jpg" alt="Image1" class="card-img-top" />
+              <div class="card hover-zoomin">
+                <a href="#">
+                  <img src="./img/2.jpg" alt="Image1" class="card-img-top" />
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">Flexible</h5>
                   <p class="card-text">
@@ -136,8 +143,10 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card">
-                <img src="./img/3.jpg" alt="Image1" class="card-img-top" />
+              <div class="card hover-zoomin">
+                <a>
+                  <img src="./img/3.jpg" alt="Image1" class="card-img-top" />
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">Ui/UX</h5>
                   <p class="card-text">
@@ -151,17 +160,17 @@
           </div>
         </div>
       </div>
-
       <div class="section-2">
         <div class="container-fluid">
-          <div class="d-flex justify-content-end mt-4">
+          <!-- justify-content-end -->
+          <div class="d-flex justify-content-center mt-4">
             <div class="flex-column">
-              <h1 class="heading-1">Like & Share Your Love</h1>
+              <h1 class="heading-1 text-danger">Design Ui / Ux</h1>
               <p class="para">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <input type="button" value="show" class="btn btn-danger" />
+              <input type="button" value="show" class="btn btn-primary" />
             </div>
           </div>
         </div>
@@ -188,7 +197,7 @@
               <div class="d-flex flex-row">
                 <i class="fas fa-seedling fa-3x m-2"></i>
                 <div class="d-flex flex-column">
-                  <h3 class="m-2">Marketing</h3>
+                  <h3 class="m-2">WebDesign</h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -219,7 +228,7 @@
               <div class="d-flex flex-row">
                 <i class="fas fa-user-shield fa-3x m-2"></i>
                 <div class="d-flex flex-column">
-                  <h3 class="m-2">Authorized</h3>
+                  <h3 class="m-2">Ui/Ux</h3>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -265,17 +274,25 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7">
-              <img src="./img/15.jpg"  alt="" />
+              <img src="./img/15.jpg" alt="" />
             </div>
+
             <div class="col-md-5">
-              <h1 class="text-white">Didnt Know where to start From</h1>
-              <a href="#">Join Us</a>
-              <p class="para-1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type
-              </p>
+              <div
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500"
+              >
+                <h1 class="text-white">you can start</h1>
+                <a href="#">Join Us</a>
+                <p class="para-1">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -284,31 +301,31 @@
 
     <footer>
       <div class="section-5 text-center">
-        <h4 style="margin-top: 5%">Get Template Design from Daily Tuition</h4>
-        <h4 class="my-4">if you need any help</h4>
+        <h4 style="margin-top: 5%">Get Template Design </h4>
         <div class="form-inline justify-content-center d-flex w-50 m-auto">
           <input
             type="text"
             name="Email"
             id="Email"
             placeholder="Email"
-           
-            class="form-control px-4 py-2 "
+            class="form-control px-4 py-2"
           />
-          <input type="button" value="Contact Us" class="btn btn-danger px-4 py-2">
+          <input
+            type="button"
+            value="Contact Us"
+            class="btn btn-danger px-4 py-2"
+          />
         </div>
 
-        <div class="social" style="margin:5%">
+        <div class="social" style="margin: 5%">
           <div class="d-flex flex-row justify-content-center">
             <i class="fab fa-facebook-f m-2"></i>
             <i class="fab fa-twitter m-2"></i>
             <i class="fab fa-instagram m-2"></i>
             <i class="fab fa-youtube m-2"></i>
-
           </div>
-          <hr>
-          <h5 style="color :lightseagreen">Daily Tutition &copy;</h5>
-
+          <hr />
+          <h5 style="color: lightseagreen">UI/UX &copy;</h5>
         </div>
       </div>
     </footer>
@@ -317,18 +334,19 @@
 
     <script src="boot/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-      <script>
+    <script>
+      ScrollReveal().reveal(".site-content .d-flex");
+      ScrollReveal().reveal(".section-1 .col-md-4", { duration: 3000 });
+      ScrollReveal().reveal(".section-3 .col-md-4", { duration: 2000 });
+      ScrollReveal().reveal(".section-4 .col-md-7 ,col-md-5", {
+        duration: 2000,
+      });
+    </script>
 
-        ScrollReveal().reveal('.site-content .d-flex')
-        ScrollReveal().reveal('.section-1 .col-md-4' ,{ duration: 3000})
-        ScrollReveal().reveal('.section-3 .col-md-4',{ duration: 2000})
-        ScrollReveal().reveal('.section-4 .col-md-7 ,col-md-5' ,{ duration: 2000})
-
-      </script>
-
-
-    
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
-

@@ -24,11 +24,11 @@ body {
 }
 
 .nav-link:hover {
-  color: #00e8e8 !important;
+  color: #f87171 !important;
 }
 
 .active .nav-link {
-  color: #00e8e8 !important;
+  color: #f87171 !important;
 }
 
 /* برای دکمه فرم */
@@ -41,7 +41,7 @@ body {
 
 .menu-right-btn:hover {
   color: #fff;
-  background-color: #00e8e8;
+  background-color: #f87171;
 }
 
 /* ********* */
@@ -115,6 +115,28 @@ body {
   color: rgba(0, 0, 0, 0.59);
 }
 
+.hover-zoomin a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-zoomin img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.hover-zoomin:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 /* .card{
   width: 20rem;
@@ -156,7 +178,7 @@ body {
 }
 
 .section-3 i {
-  color: #00e8e8;
+  color: #f87171;
 }
 .section-3 p {
   color: rgba(0, 0, 0, 0.59);
@@ -168,7 +190,7 @@ body {
   margin-top: 8%;
 }
 
-.section-4 .col-md-7 img{
+.section-4 .col-md-7 img {
   width: 550px;
 }
 
@@ -178,63 +200,74 @@ body {
   margin-bottom: 10%;
 }
 
-
-.section-4 a{
-  color: lightseagreen;
+.section-4 a {
+  color: #f87171;
   font-size: 40px;
   text-decoration: none;
 }
 
-.section-4 .para-1{
+.section-4 .para-1 {
   margin-top: 7%;
-  color:white;
+  color: white;
   font-family: "Roboto_Condensed";
   font-size: 23px;
-
 }
-
 
 /* footer */
 
-.social  i {
-  color :#ef5651;
-  font-size :20px
+.social i {
+  color: #f87171;
+  font-size: 20px;
 }
 
+@media (max-width: 992px) {
+  #navbarMenu {
+    position: absolute;
+    top: 79px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    right: 0;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
 
-
+  .form-inline {
+    display: none;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
-  .section-4 .col-md-7 img{
-      width: 370px !important;
-  } 
+  .section-4 .col-md-7 img {
+    width: 370px !important;
+  }
 }
 
-
 @media screen and (max-width: 767px) {
-  .section-4 .col-md-7 img{
+  .section-4 .col-md-7 img {
     width: 280px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .site-content .site-title{
-     font-size: 30px;
-     padding-left: 15%;
+  .site-content .site-title {
+    font-size: 30px;
+    padding-left: 15%;
   }
-  .site-content .site-btn2{
-    display:none
-  }
-
-  .site-content .site-btn1{
-    margin-left:15%;
+  .site-content .site-btn2 {
+    display: none;
   }
 
-  .section-1 .heading-1 , .section-1 .heading-2{
+  .site-content .site-btn1 {
+    margin-left: 15%;
+  }
+
+  .section-1 .heading-1,
+  .section-1 .heading-2 {
     font-size: 25px;
   }
 
-  .section-1 .col-md-4{
+  .section-1 .col-md-4 {
     padding: 5%;
     margin-left: 8%;
   }
@@ -242,18 +275,18 @@ body {
   /* .section-1 .card{
     width:15rem;
   } */
-.section-4 .col-md-5{
-  padding: 0% 15% ;
-}
-.section-4 .col-md-7{
-  text-align: center;
-}
-.section-4 .col-md-7 img{
-  width: 250px;
-}
+  .section-4 .col-md-5 {
+    padding: 0% 15%;
+  }
+  .section-4 .col-md-7 {
+    text-align: center;
+  }
+  .section-4 .col-md-7 img {
+    width: 250px;
+  }
 
-footer .form-inline{
-  width: 100%;
-  flex-direction: column;
-}
+  footer .form-inline {
+    width: 100%;
+    flex-direction: column;
+  }
 }
